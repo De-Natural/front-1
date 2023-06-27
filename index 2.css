@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    height: 800px;
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.phone{
+    background-color: hsl(216, 50%, 16%);
+    height: 670px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #312a2a;
+}
+
+.screen{
+    height: 300px;
+    width: 330px;
+    position: absolute;
+    top: 4%;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+}
+.screen img{
+    height: 300px;
+    width: 330px;
+    border-radius: 8px;
+}
+.screen img:hover{
+    cursor: pointer;
+}
+/* #hello{
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    top: 39%;
+    left: 40%;
+} */
+
+.down_screen{
+    height: 300px;
+    width: 330px;
+    border: 1px green;
+    position: absolute;
+    bottom: 4%;
+}
+.stand{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    margin-top: 19px;
+}
+#right img{
+    height: 20px;
+    width: 20px;
+    margin-top: 17px;
+}
+#down{
+    height: 50px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
+#down p{
+    margin-top: 13px;
+    margin-right: 70px;
+}
+h2{
+    color: rgb(238, 232, 232);
+    font-size: 22px;
+}
+h2:hover{
+    cursor: pointer;
+}
+p{
+    color: rgb(147, 205, 224);
+}
+span{
+    color: rgb(238, 232, 232);
+}
+#put{
+    color: rgb(37, 240, 230);
+}
+span:hover{
+    cursor: pointer;
+}
